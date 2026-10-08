@@ -23,7 +23,7 @@ Each topic lives in its own folder with a problem list and the solution programs
 
 | No. | Topic | Solved | Status |
 |-----|-------|--------|--------|
-| 01 | [Basics to Loops](./01-basics-to-loops) | 0 / 100 | In progress |
+| 01 | [Basics to Loops](./01-basics-to-loops) | 8 / 100 | In progress |
 | 02 | Arrays | - | Planned |
 | 03 | Strings | - | Planned |
 | 04 | Methods and Recursion | - | Planned |
@@ -44,9 +44,13 @@ Each topic lives in its own folder with a problem list and the solution programs
 java-practice-problems/
 ├── README.md
 ├── .gitignore
+├── assets/
+│   ├── banner.png
+│   └── roadmap.png
 ├── 01-basics-to-loops/
 │   ├── README.md
-│   ├── HelloJava.java
+│   ├── Q001_HelloJava.java
+│   ├── Q002_IntroduceYourself.java
 │   └── ...
 ├── 02-arrays/
 ├── 03-strings/
@@ -73,15 +77,16 @@ cd java-practice-problems
 
 ```bash
 cd 01-basics-to-loops
-javac HelloJava.java
-java HelloJava
+javac Q001_HelloJava.java
+java Q001_HelloJava
 ```
 
 ## Conventions
 
-- One problem per file, named after its class (for example `PrimeCheck.java`).
+- One problem per file, named `QXXX_ProblemName.java` (for example `Q001_HelloJava.java`).
 - The file name and the public class name are always identical.
 - Class names use `PascalCase`; methods and variables use `camelCase`.
+- Each file starts with a comment stating the problem and ends with a comment showing the expected output.
 - Programs are compiled and tested before being committed.
 
 ## Author

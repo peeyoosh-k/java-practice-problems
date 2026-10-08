@@ -1,4 +1,4 @@
-// Q001 Print Welcome to Java on the console.
+// Print Welcome to Java on the console.
 
 public class Q001_HelloJava {
     public static void main(String[] args) {

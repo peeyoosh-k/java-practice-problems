@@ -1,4 +1,4 @@
-//Q002 Print your name, age, city, and hobby on four separate lines.
+// Print your name, age, city, and hobby on four separate lines.
 
 public class Q002_IntroduceYourself {
     public static void main(String[] args) {
