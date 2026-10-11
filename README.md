@@ -23,7 +23,7 @@ Each topic lives in its own folder with a problem list and the solution programs
 
 | No. | Topic | Solved | Status |
 |-----|-------|--------|--------|
-| 01 | [Basics to Loops](./01-basics-to-loops) | 20 / 100 | In progress |
+| 01 | [Basics to Loops](./01-basics-to-loops) | 28 / 100 | In progress |
 | 02 | Arrays | - | Planned |
 | 03 | Strings | - | Planned |
 | 04 | Methods and Recursion | - | Planned |
